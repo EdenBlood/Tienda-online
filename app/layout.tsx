@@ -15,9 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
-      <body
-        className={`bg-slate-100 text-slate-900 dark:bg-slate-900 dark:text-slate-100`}
-      >
+      <body className={`bg-slate-100 text-slate-900`}>
         <Header />
         {children}
         <Footer />
